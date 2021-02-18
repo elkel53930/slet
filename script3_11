@@ -1,0 +1,8 @@
+subst #a3.3 q T
+def #e1 RES
+leibn #a3.3 (x=T) x T
+equan #a3.3 RES
+equan #e1 RES
+def #t3.4 RES
+equan #t3.4 #a3.3
+def #t3.5 RES
